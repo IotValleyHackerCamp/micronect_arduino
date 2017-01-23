@@ -2,4 +2,6 @@
 all code for arduino, in micronect project
 
 # Schematic on breadboard
-![alt tag](https://github.com/IotValleyHackerCamp/micronect_arduino/blob/master/schematic-arduino-breadboard.png)
+![Arduino Schematic](https://github.com/IotValleyHackerCamp/micronect_arduino/blob/master/schematic-arduino-breadboard.png)
+
+# A good value for the resistor is 1kohm, giving range from ~60 to ~900
