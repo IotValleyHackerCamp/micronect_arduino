@@ -1,13 +1,9 @@
 int sensorPin = A5;    // select the input pin for the potentiometer
-int ledPin = 13;      // select the pin for the LED
 int sensorValue = 0;  // variable to store the value coming from the sensor
 
 void setup() {
-
    Serial.begin(9600);
-  while (!Serial) {
-    ; // wait for serial port to connect. Needed for native USB port only
-  }
+   while (!Serial) {}; // wait for serial port to connect. Needed for native USB port only
 }
 
 void loop() {
@@ -18,6 +14,4 @@ void loop() {
   Serial.print(sensorValue);
   Serial.print("\n");
   delay(30);
-
-  
 }
